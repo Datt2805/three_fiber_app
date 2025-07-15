@@ -4,8 +4,8 @@ import React from "react";
 import * as THREE from "three";
 
 const MacContainer = () => {
-  let model = useGLTF("../public/mac.glb");
-  let tex = useTexture("../public/red.jpg");
+  let model = useGLTF("./mac.glb");
+  let tex = useTexture("./red.jpg");
 
   let meshes = {};
   model.scene.traverse((e) => {
