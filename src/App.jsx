@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="w-full h-screen">
       <div className="navbar absolute flex top-20 left-1/2 -translate-x-1/2 gap-10">
-        {["iPhon", "iPad", "Services", "Mac", "Products"].map((e) => (
+        {["iPhone", "iPad", "Services", "Mac", "Products"].map((e) => (
           <a href="" className="text-white font-[500] text-2xl capitalize">
             {e}
           </a>
